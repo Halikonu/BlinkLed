@@ -1,5 +1,10 @@
+int ledPin - 3;
+int buttonPin=7;
+
+
 void setup() {
-  // put your setup code here, to run once:
+  pinMode(ledPin,OUTPUT);
+  pinMode(buttonPin,OUTPUT);
 
 }
 
